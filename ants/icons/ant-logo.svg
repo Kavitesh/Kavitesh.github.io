@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Ant body (side view, friendly) -->
+  <g fill="#1a1a1a" stroke="#1a1a1a" stroke-linecap="round">
+    <!-- Back legs -->
+    <path d="M38 82 Q30 92 22 98" stroke-width="3" fill="none"/>
+    <path d="M22 98 L20 102" stroke-width="3" fill="none"/>
+    <path d="M48 78 Q42 90 36 96" stroke-width="3" fill="none"/>
+    <path d="M36 96 L34 100" stroke-width="3" fill="none"/>
+
+    <!-- Abdomen -->
+    <ellipse cx="38" cy="68" rx="20" ry="16" stroke="none"/>
+    <!-- Abdomen stripes -->
+    <path d="M22 62 Q38 58 54 62" stroke="#2d2d2d" stroke-width="1" fill="none"/>
+    <path d="M20 68 Q38 64 56 68" stroke="#2d2d2d" stroke-width="1" fill="none"/>
+    <path d="M22 74 Q38 70 54 74" stroke="#2d2d2d" stroke-width="1" fill="none"/>
+
+    <!-- Petiole -->
+    <ellipse cx="56" cy="63" rx="4" ry="3" stroke="none"/>
+
+    <!-- Thorax -->
+    <ellipse cx="68" cy="58" rx="12" ry="10" stroke="none"/>
+
+    <!-- Front legs -->
+    <path d="M62 64 Q56 76 50 82" stroke-width="3" fill="none"/>
+    <path d="M50 82 L48 86" stroke-width="3" fill="none"/>
+
+    <!-- Neck -->
+    <ellipse cx="78" cy="50" rx="4" ry="3.5" stroke="none"/>
+
+    <!-- Head -->
+    <ellipse cx="90" cy="42" rx="14" ry="12" stroke="none"/>
+
+    <!-- Smile -->
+    <path d="M84 47 Q90 53 96 47" stroke="#e8e8e8" stroke-width="1.8" fill="none"/>
+
+    <!-- Eyes -->
+    <circle cx="85" cy="38" r="4" fill="white" stroke="none"/>
+    <circle cx="96" cy="37" r="4" fill="white" stroke="none"/>
+    <circle cx="86" cy="37" r="2.2" fill="#1a1a1a" stroke="none"/>
+    <circle cx="97" cy="36" r="2.2" fill="#1a1a1a" stroke="none"/>
+    <!-- Eye highlights -->
+    <circle cx="87" cy="36" r="0.8" fill="white" stroke="none"/>
+    <circle cx="98" cy="35" r="0.8" fill="white" stroke="none"/>
+
+    <!-- Antenna -->
+    <path d="M94 32 Q100 20 108 14" stroke-width="2.2" fill="none"/>
+    <circle cx="109" cy="13" r="2" stroke="none"/>
+
+    <!-- Arm holding ballot (front arm) -->
+    <path d="M80 54 Q84 62 88 66" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Ballot / voting card -->
+  <g transform="translate(84, 58) rotate(-10)">
+    <!-- Card background -->
+    <rect x="0" y="0" width="28" height="36" rx="3" fill="#4A90D9" stroke="#3570B0" stroke-width="1.5"/>
+    <!-- Card header -->
+    <rect x="3" y="3" width="22" height="6" rx="1.5" fill="#3570B0"/>
+    <text x="14" y="8" text-anchor="middle" font-size="4.5" font-family="Arial, sans-serif" font-weight="bold" fill="white">VOTE</text>
+    <!-- Checkbox lines -->
+    <rect x="5" y="12" width="4" height="4" rx="0.8" fill="none" stroke="white" stroke-width="1"/>
+    <line x1="5" y1="19" x2="23" y2="19" stroke="white" stroke-width="0.8" opacity="0.6"/>
+    <rect x="5" y="22" width="4" height="4" rx="0.8" fill="none" stroke="white" stroke-width="1"/>
+    <line x1="5" y1="29" x2="23" y2="29" stroke="white" stroke-width="0.8" opacity="0.6"/>
+    <!-- Checkmark on first option -->
+    <path d="M6 14.5 L7.5 16 L10 12.5" stroke="#4ECDC4" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Lines next to checkboxes -->
+    <line x1="12" y1="13" x2="23" y2="13" stroke="white" stroke-width="1" opacity="0.8"/>
+    <line x1="12" y1="23" x2="23" y2="23" stroke="white" stroke-width="1" opacity="0.8"/>
+  </g>
+
+  <!-- Hand/grip on ballot -->
+  <g fill="#1a1a1a">
+    <ellipse cx="90" cy="70" rx="3" ry="2" stroke="none"/>
+  </g>
+</svg>

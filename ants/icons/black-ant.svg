@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <g fill="#1a1a1a" stroke="#1a1a1a" stroke-linecap="round">
+    <!-- Antennae -->
+    <path d="M28 13 Q22 6 17 3" stroke-width="1.6" fill="none"/>
+    <path d="M36 13 Q42 6 47 3" stroke-width="1.6" fill="none"/>
+    <circle cx="16.5" cy="2.5" r="1.4" stroke="none"/>
+    <circle cx="47.5" cy="2.5" r="1.4" stroke="none"/>
+    <!-- Head -->
+    <ellipse cx="32" cy="15" rx="6.5" ry="5" stroke="none"/>
+    <!-- Mandibles -->
+    <path d="M27.5 18 L25 21.5" stroke-width="1.6" fill="none"/>
+    <path d="M36.5 18 L39 21.5" stroke-width="1.6" fill="none"/>
+    <!-- Neck -->
+    <ellipse cx="32" cy="22" rx="3" ry="2" stroke="none"/>
+    <!-- Thorax -->
+    <ellipse cx="32" cy="28" rx="7" ry="5.5" stroke="none"/>
+    <!-- Petiole (waist) -->
+    <ellipse cx="32" cy="35" rx="2.8" ry="1.8" stroke="none"/>
+    <!-- Abdomen -->
+    <ellipse cx="32" cy="47" rx="10.5" ry="12.5" stroke="none"/>
+    <!-- Abdomen segments -->
+    <path d="M23.5 42 Q32 39 40.5 42" stroke="#2d2d2d" stroke-width="0.8" fill="none"/>
+    <path d="M22.5 47 Q32 44 41.5 47" stroke="#2d2d2d" stroke-width="0.8" fill="none"/>
+    <path d="M23.5 52 Q32 49 40.5 52" stroke="#2d2d2d" stroke-width="0.8" fill="none"/>
+    <!-- Front legs -->
+    <path d="M26 26 Q18 20 11 17" stroke-width="2" fill="none"/>
+    <path d="M38 26 Q46 20 53 17" stroke-width="2" fill="none"/>
+    <!-- Middle legs -->
+    <path d="M25 30 Q15 31 8 35" stroke-width="2" fill="none"/>
+    <path d="M39 30 Q49 31 56 35" stroke-width="2" fill="none"/>
+    <!-- Back legs -->
+    <path d="M26 39 Q17 45 11 51" stroke-width="2" fill="none"/>
+    <path d="M38 39 Q47 45 53 51" stroke-width="2" fill="none"/>
+    <!-- Feet dots -->
+    <circle cx="10.5" cy="17" r="1.2" stroke="none"/>
+    <circle cx="53.5" cy="17" r="1.2" stroke="none"/>
+    <circle cx="7.5" cy="35.5" r="1.2" stroke="none"/>
+    <circle cx="56.5" cy="35.5" r="1.2" stroke="none"/>
+    <circle cx="10.5" cy="51.5" r="1.2" stroke="none"/>
+    <circle cx="53.5" cy="51.5" r="1.2" stroke="none"/>
+  </g>
+</svg>

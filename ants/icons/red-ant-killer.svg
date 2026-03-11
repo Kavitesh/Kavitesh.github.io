@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Ant silhouette (dark, faded) -->
+  <g fill="#3a2020" stroke="#3a2020" stroke-linecap="round" opacity="0.6">
+    <!-- Antennae -->
+    <path d="M28 13 Q22 6 17 3" stroke-width="1.4" fill="none"/>
+    <path d="M36 13 Q42 6 47 3" stroke-width="1.4" fill="none"/>
+    <circle cx="16.5" cy="2.5" r="1.2" stroke="none"/>
+    <circle cx="47.5" cy="2.5" r="1.2" stroke="none"/>
+    <!-- Head -->
+    <ellipse cx="32" cy="15" rx="6" ry="4.5" stroke="none"/>
+    <!-- Mandibles -->
+    <path d="M27.5 18 L25 21" stroke-width="1.4" fill="none"/>
+    <path d="M36.5 18 L39 21" stroke-width="1.4" fill="none"/>
+    <!-- Neck -->
+    <ellipse cx="32" cy="22" rx="2.8" ry="1.8" stroke="none"/>
+    <!-- Thorax -->
+    <ellipse cx="32" cy="28" rx="6.5" ry="5" stroke="none"/>
+    <!-- Petiole -->
+    <ellipse cx="32" cy="35" rx="2.5" ry="1.6" stroke="none"/>
+    <!-- Abdomen -->
+    <ellipse cx="32" cy="47" rx="10" ry="12" stroke="none"/>
+    <!-- Legs -->
+    <path d="M26 26 Q18 20 12 17" stroke-width="1.8" fill="none"/>
+    <path d="M38 26 Q46 20 52 17" stroke-width="1.8" fill="none"/>
+    <path d="M25 30 Q15 31 9 35" stroke-width="1.8" fill="none"/>
+    <path d="M39 30 Q49 31 55 35" stroke-width="1.8" fill="none"/>
+    <path d="M26 39 Q17 45 12 51" stroke-width="1.8" fill="none"/>
+    <path d="M38 39 Q47 45 52 51" stroke-width="1.8" fill="none"/>
+  </g>
+
+  <!-- Red X / crosshair overlay -->
+  <g stroke="#dc2626" stroke-linecap="round" fill="none">
+    <!-- Big X -->
+    <line x1="12" y1="10" x2="52" y2="54" stroke-width="5"/>
+    <line x1="52" y1="10" x2="12" y2="54" stroke-width="5"/>
+    <!-- Crosshair circle -->
+    <circle cx="32" cy="32" r="20" stroke-width="2.5"/>
+    <!-- Crosshair ticks -->
+    <line x1="32" y1="8" x2="32" y2="14" stroke-width="2.5"/>
+    <line x1="32" y1="50" x2="32" y2="56" stroke-width="2.5"/>
+    <line x1="8" y1="32" x2="14" y2="32" stroke-width="2.5"/>
+    <line x1="50" y1="32" x2="56" y2="32" stroke-width="2.5"/>
+  </g>
+</svg>
